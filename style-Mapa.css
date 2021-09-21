@@ -1,0 +1,92 @@
+.carousel-item {
+    height: 510px;
+}
+
+.carousel-item img {
+    height: 510px;
+    object-fit: cover;
+}
+
+.card {
+    border-top: 2px solid rgb(194, 73, 58);
+    border-radius: 0 0 15px 15px;
+    border-bottom: 15px solid rgba(0, 0, 0, 0.151);
+}
+
+.card i {
+    font-size: 40px;
+    color: tomato;
+}
+
+.card {
+    background-color: #F0F0F0;
+}
+
+.position {
+    border-top: 2px solid #bfff47;
+    background-color: #250800;
+}
+
+.cards {
+    background-image: url(img/gallery/img1.jpg);
+    border-top: 2px solid rgb(175, 255, 71);
+    position: relative;
+}
+
+.cards:hover .body {
+    display: block;
+}
+
+.body {
+    position: absolute;
+    background-color: rgba(241, 241, 226, 0.26);
+    top: 0;
+    display: none;
+}
+
+.card-layer:hover {
+    background-color: tomato;
+}
+
+.slider-background {
+    background: url(img/img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+hr {
+    color: rgb(0, 60, 255);
+    border: 2px solid tomato;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    height: 350px;
+}
+
+.carousel-caption {
+    color: #fff;
+    top: 5%;
+}
+
+.button-message {
+    background-color: #F39C12;
+    font-weight: 600;
+}
+
+a {
+text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #A82C48;
+  }
+
+  h1{
+      color: #A82C48;
+  }

@@ -1,0 +1,14 @@
+.navbar{
+    margin-bottom: 60px;
+      
+}
+.navbar-brand{
+     font-size: 30px;
+     margin-left: 60px;
+     color: rgb(249, 251, 253);      
+ }
+ .navbar-nav a{
+     text-transform: uppercase;     
+     color: aliceblue;
+     margin-left: 50px;
+}
