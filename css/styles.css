@@ -41,3 +41,18 @@ header,
 .remove {
   display: none;
 }
+
+.card img {
+  border-radius: 0.9375rem;
+  object-fit: contain;
+
+  background-color: transparent;
+  border-radius: 1.9375rem;
+}
+
+img {
+  padding: 1rem;
+  min-height: auto;
+  width: 500px;
+  background-color: #f98169;
+}
