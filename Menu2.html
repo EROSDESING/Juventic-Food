@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="styles2.css">
   <link rel="stylesheet" href="responsive-style.css">
   <link rel="stylesheet" href="css/estiles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -44,11 +45,17 @@
             <li class="nav-item">
               <a class="nav-link" href="mapa del sitio.html">Mama del sitio</a>
             </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+            </li>
+
           </ul>
         </div>
       </div>
     </nav>
   </header>
+
   <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
     Producto Añadido al carrito!
   </div>
@@ -94,7 +101,7 @@
                   <img src="Img/1.jpg" class="img-fluid">
                   <div class="pt-3">
 
-                    <h3 class="text-center">Champiñones </h3>
+                    <h3 class="text-center card-title">Champiñones </h3>
                     <br>
                     <h5 class="text-center">Crema de champiñones
                     </h5>
@@ -107,17 +114,71 @@
 
                       <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                          <img src="Img/1.jpg" class="img-fluid alt="">
-                     <div class=" modal-header">
+                          <img src="Img/1.jpg" class="img-fluid card-img-top">
+                          <div class=" modal-header">
+
+
+                            <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
+                            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Crema de champiñones acompañada con pancitos y parmesano.
+
+                            *Con pancitos</div>
+                          <button class="mt-4 main-btn button "> Buy</button>
+                          <div class="modal-footer">
+
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <span class="span1 precio">$14.500 <del>$15.500 <button class="mt-4 main-btn" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal1" class="span12">
+                          descripción </button></del>
+                      <button class="mt-4 main-btn"> Buy</button> </span>
+
+
+
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                <div class="card">
+                  <br>
+                  <img src="Img/2.jpg" class="img-fluid">
+                  <div class="pt-3">
+
+                    <h3 class="text-center">Polpette</h3>
+                    <br>
+                    <h5 class="text-center">Polpette cacio e pepe
+                    </h5>
+                    <!-- Button trigger modal -->
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <img src="Img/2.jpg" class="img-fluid alt="">
+                   <div class=" modal-header">
 
 
                           <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
                           <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          Crema de champiñones acompañada con pancitos y parmesano.
-
-                          *Con pancitos</div>
+                          Albóndigas en salsa cacio e pepe, gratinadas, acompañadas de tostadas de pan en mantequilla de
+                          ajo
+                        </div>
                         <button class="mt-4 main-btn button "> Buy</button>
                         <div class="modal-footer">
 
@@ -130,10 +191,10 @@
 
 
 
-                  <span class="span1">$14.500 <del>$15.500 <button class="mt-4 main-btn" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal1" class="span12">
+                  <span class="span1">$15.700 <del>$16.700 <button class="mt-4 main-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2" class="span12">
                         descripción </button></del>
-                    <button class="mt-4 main-btn"> Buy</button> </span>
+                    <button class="mt-4 main-btn button"> Buy</button> </span>
 
 
 
@@ -145,34 +206,34 @@
             <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
               <div class="card">
                 <br>
-                <img src="Img/2.jpg" class="img-fluid">
+                <img src="Img/3.jpg" class="img-fluid">
                 <div class="pt-3">
-
-                  <h3 class="text-center">Polpette</h3>
+                  <h3 class="text-center">Polpette </h3>
                   <br>
-                  <h5 class="text-center">Polpette cacio e pepe
-                  </h5>
+                  <h5 class="text-center">Polpette napolitana</h5>
                   <!-- Button trigger modal -->
 
 
                   <!-- Modal -->
-                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
 
                     <div class="modal-dialog modal-dialog-centered">
                       <div class="modal-content">
-                        <img src="Img/2.jpg" class="img-fluid alt="">
-                   <div class=" modal-header">
+                        <img src="Img/3.jpg" class="img-fluid alt="">
+                 <div class=" modal-header">
 
 
                         <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
                         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        Albóndigas en salsa cacio e pepe, gratinadas, acompañadas de tostadas de pan en mantequilla de
-                        ajo
+                        Albóndigas con solomito 8 uds, en salsa napolitana, gratinadas, tostadas de pan en mantequilla
+                        de
+                        ajo.
+
                       </div>
-                      <button class="mt-4 main-btn button "> Buy</button>
+                      <button class="mt-4 main-btn button"> Buy</button>
                       <div class="modal-footer">
 
 
@@ -185,9 +246,9 @@
 
 
                 <span class="span1">$15.700 <del>$16.700 <button class="mt-4 main-btn" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal2" class="span12">
+                      data-bs-target="#exampleModal3" class="span12">
                       descripción </button></del>
-                  <button class="mt-4 main-btn button"> Buy</button> </span>
+                  <button class="mt-4 main-btn"> Buy</button> </span>
 
 
 
@@ -199,31 +260,32 @@
           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
             <div class="card">
               <br>
-              <img src="Img/3.jpg" class="img-fluid">
+              <img src="Img/4.png" class="img-fluid">
               <div class="pt-3">
-                <h3 class="text-center">Polpette </h3>
+
+                <h3 class="text-center">
+                  Patata </h3>
                 <br>
-                <h5 class="text-center">Polpette napolitana</h5>
+                <h5 class="text-center">
+                  Patata imperial</h5>
                 <!-- Button trigger modal -->
 
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
                   aria-hidden="true">
 
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                      <img src="Img/3.jpg" class="img-fluid alt="">
-                 <div class=" modal-header">
+                      <img src="Img/4.png" class="img-fluid alt="">
+               <div class=" modal-header">
 
 
                       <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
                       <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      Albóndigas con solomito 8 uds, en salsa napolitana, gratinadas, tostadas de pan en mantequilla de
-                      ajo.
-
+                      Papa gratinada rellena con pollo, jamón artesanal y tocineta, en salsa napolitana y salsa blanca
                     </div>
                     <button class="mt-4 main-btn button"> Buy</button>
                     <div class="modal-footer">
@@ -237,8 +299,8 @@
 
 
 
-              <span class="span1">$15.700 <del>$16.700 <button class="mt-4 main-btn" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal3" class="span12">
+              <span class="span1">$16.400<del>$17.400 <button class="mt-4 main-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4" class="span12">
                     descripción </button></del>
                 <button class="mt-4 main-btn"> Buy</button> </span>
 
@@ -252,32 +314,30 @@
         <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
           <div class="card">
             <br>
-            <img src="Img/4.png" class="img-fluid">
+            <img src="Img/5.png" class="img-fluid">
             <div class="pt-3">
 
-              <h3 class="text-center">
-                Patata </h3>
+              <h3 class="text-center">Patata </h3>
               <br>
-              <h5 class="text-center">
-                Patata imperial</h5>
+              <h5 class="text-center">Patata romana</h5>
               <!-- Button trigger modal -->
 
 
               <!-- Modal -->
-              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
 
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
-                    <img src="Img/4.png" class="img-fluid alt="">
-               <div class=" modal-header">
+                    <img src="Img/5.png" class="img-fluid alt="">
+             <div class=" modal-header">
 
 
                     <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    Papa gratinada rellena con pollo, jamón artesanal y tocineta, en salsa napolitana y salsa blanca
+                    Papa gratinada, rellena con solomito, tocineta, tomate, albahaca, en napolitana y salsa blanca..
                   </div>
                   <button class="mt-4 main-btn button"> Buy</button>
                   <div class="modal-footer">
@@ -291,8 +351,8 @@
 
 
 
-            <span class="span1">$16.400<del>$17.400 <button class="mt-4 main-btn" data-bs-toggle="modal"
-                  data-bs-target="#exampleModal4" class="span12">
+            <span class="span1">$19.900<del>$20.900 <button class="mt-4 main-btn" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal5" class="span12">
                   descripción </button></del>
               <button class="mt-4 main-btn"> Buy</button> </span>
 
@@ -306,30 +366,32 @@
     <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
       <div class="card">
         <br>
-        <img src="Img/5.png" class="img-fluid">
+        <img src="Img/6.jpg" class="img-fluid">
         <div class="pt-3">
 
-          <h3 class="text-center">Patata </h3>
+          <h3 class="text-center">Porción </h3>
           <br>
-          <h5 class="text-center">Patata romana</h5>
+          <h5 class="text-center">Porción de pancitos</h5>
           <!-- Button trigger modal -->
 
 
           <!-- Modal -->
-          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
-                <img src="Img/5.png" class="img-fluid alt="">
-             <div class=" modal-header">
+                <img src="Img/6.jpg" class="img-fluid alt="">
+           <div class=" modal-header">
 
 
                 <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
                 <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Papa gratinada, rellena con solomito, tocineta, tomate, albahaca, en napolitana y salsa blanca.. </div>
+                Seis pancitos recién horneados con mantequilla de ajo.
+
+                . </div>
               <button class="mt-4 main-btn button"> Buy</button>
               <div class="modal-footer">
 
@@ -342,70 +404,18 @@
 
 
 
-        <span class="span1">$19.900<del>$20.900 <button class="mt-4 main-btn" data-bs-toggle="modal"
-              data-bs-target="#exampleModal5" class="span12">
-              descripción </button></del>
-          <button class="mt-4 main-btn"> Buy</button> </span>
+        <span class="span1">$10.500
+
+          <del>$7.500
+
+            <button class="mt-4 main-btn" data-bs-toggle="modal" data-bs-target="#exampleModal6" class="span12">
+              descripción </button></del> <button class="mt-4 main-btn"> -Buy-</button> </span>
 
 
 
 
       </div>
     </div>
-
-  </div>
-  <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
-    <div class="card">
-      <br>
-      <img src="Img/6.jpg" class="img-fluid">
-      <div class="pt-3">
-
-        <h3 class="text-center">Porción </h3>
-        <br>
-        <h5 class="text-center">Porción de pancitos</h5>
-        <!-- Button trigger modal -->
-
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <img src="Img/6.jpg" class="img-fluid alt="">
-           <div class=" modal-header">
-
-
-              <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
-              <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Seis pancitos recién horneados con mantequilla de ajo.
-
-              . </div>
-            <button class="mt-4 main-btn button"> Buy</button>
-            <div class="modal-footer">
-
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-
-
-      <span class="span1">$10.500
-
-        <del>$7.500
-
-          <button class="mt-4 main-btn" data-bs-toggle="modal" data-bs-target="#exampleModal6" class="span12">
-            descripción </button></del> <button class="mt-4 main-btn"> -Buy-</button> </span>
-
-
-
-
-    </div>
-  </div>
 
   </div>
   <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
@@ -759,7 +769,7 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
   <script src="main.js"></script>
-  <script src="scripts.js"></script>
+  <script src=></script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
